@@ -54,7 +54,7 @@ public class Give extends Command {
     private ItemStack createBow() {
       ItemStack itemStack = new ItemStack(Material.CROSSBOW);
       ItemMeta meta = itemStack.getItemMeta();
-      meta.setDisplayName(this.bowsMeta.bowName());
+      meta.displayName(Component.text(this.bowsMeta.bowName()));
       itemStack.setItemMeta(meta);
 
       List<Component> lore = new ArrayList<>();
