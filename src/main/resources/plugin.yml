@@ -1,0 +1,4 @@
+name: MilitaryBows
+version: '${version}'
+main: net.kunmc.lab.militarybows.MilitaryBows
+api-version: 1.16
